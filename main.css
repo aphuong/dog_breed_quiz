@@ -45,31 +45,41 @@ table {
 
 html {
   /*background-color: #DDD6DE;*/
-  color: #4D4B4D;
-  background-image: url(http://www.9p.com/display/background.jpg);
+  color: #FFFFFF;
+  background-image: url(http://hufi.ro/static/galleries/normal/grimet80P9wr.jpg);
   background-size: cover;
+  min-height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: Helvetica;
   font-size: 20px;
   text-align: center;
-  margin: 20px;
 }
 
-h6 {
+h6, .all_questions p {
   font-size: 50px;
+  color: #FFFFFF;
+  font-weight: 800;
+  background-color: rgba(0, 2, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .intro_image, img {
   margin-top: 30px;
+  border-radius: 20px;
 }
 
 img {
   border: 10px solid #FFFFFF;
 }
 
-.start_button, .submit_answer {
+.start_button, .submit_answer1, .submit_answer2,
+.submit_answer3, .submit_answer4, .submit_answer5  {
   height: 25px;
   font-size: 12px;
   margin-top: 20px;
@@ -79,15 +89,19 @@ img {
   background-color: #FDF6FF;
 }
 
-.main_text p {
+.main_text p, .answers {
   line-height: 30px;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.main_text, .answers {
+   background-color: rgba(10, 10, 10, .31);
+   width: 400px;
+   margin: auto;
 }
 
 .answers {
   text-align: left;
-  width: 50%;
-  margin-left: 45%;
 }
 
 .question_1 {
