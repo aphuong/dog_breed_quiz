@@ -44,8 +44,10 @@ table {
 /*CSS RESET Above*/
 
 html {
-  background-color: #DDD6DE;
+  /*background-color: #DDD6DE;*/
   color: #4D4B4D;
+  background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg);
+  background-size: cover;
 }
 
 body {
