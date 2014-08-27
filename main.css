@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*CSS RESET Above*/
+
+html {
+  background-color: #DDD6DE;
+  color: #4D4B4D;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+h6 {
+  font-size: 50px;
+}
+
+.intro_image, img {
+  margin-top: 30px;
+}
+
+img {
+  border: 10px solid #FFFFFF;
+}
+
+.start_button, .submit_answer {
+  height: 25px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  border: 1px dotted #4D4B4D;
+  background-color: #FDF6FF;
+}
+
+.main_text p {
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.answers {
+  text-align: left;
+  width: 50%;
+  margin-left: 45%;
+}
+
+.question_1 {
+  display: none;
+}
+
+.question_2 {
+  display: none;
+}
+
+.question_3 {
+  display: none;
+}
+
+.question_4 {
+  display: none;
+}
+
+.question_5 {
+  display: none;
+}
