@@ -25,4 +25,8 @@ $(document).ready(function() {
     $(".question_5").show();
   });
 
+  $(".submit_answer5").click(function() {
+    $(".question_5").hide();
+    $(".end_page").show();
+  })
 });

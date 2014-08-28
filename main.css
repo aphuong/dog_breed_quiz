@@ -44,66 +44,71 @@ table {
 /*CSS RESET Above*/
 
 html {
-  background-color: #DDD6DE;
-  color: #4D4B4D;
+  /*background-color: #DDD6DE;*/
+  color: #FFFFFF;
+  background-image: url(http://hufi.ro/static/galleries/normal/grimet80P9wr.jpg);
+  background-size: cover;
+  min-height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: Helvetica;
   font-size: 20px;
   text-align: center;
-  margin: 20px;
 }
 
-h6 {
-  font-size: 50px;
+h6, .all_questions p {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: 800;
+  background-color: rgba(0, 2, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .intro_image, img {
-  margin-top: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 
 img {
-  border: 10px solid #FFFFFF;
+  border: 8px double #FFFA13;
 }
 
-.start_button, .submit_answer {
-  height: 25px;
-  font-size: 12px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 50px;
+.start_button, .submit_answer1, .submit_answer2,
+.submit_answer3, .submit_answer4, .submit_answer5  {
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
   border: 1px dotted #4D4B4D;
-  background-color: #FDF6FF;
+  background-color: #FFFA13;
+  text-align: center;
 }
 
 .main_text p {
-  line-height: 30px;
-  margin-top: 20px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.main_text, .answers {
+   background-color: rgba(10, 10, 10, .45);
+   width: 400px;
+   margin: auto;
 }
 
 .answers {
-  text-align: left;
-  width: 50%;
-  margin-left: 45%;
+  text-align: center;
+  line-height: 30px;
 }
 
-.question_1 {
-  display: none;
-}
-
-.question_2 {
-  display: none;
-}
-
-.question_3 {
-  display: none;
-}
-
-.question_4 {
-  display: none;
-}
-
-.question_5 {
+.question_1, .question_2, .question_3,
+.question_4, .question_5, .end_page  {
   display: none;
 }
