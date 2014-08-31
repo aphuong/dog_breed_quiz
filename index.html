@@ -7,102 +7,44 @@
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="app.js"></script>
 </head>
-
 <body>
+  
+  <div class="header">
+    <h6 class="title">Mystery Dog Breed Quiz</h6>
+  </div>
 
-  <div class="intro_page">
-    <h6>The Mystery Dog Breed Game</h6>
-    <div class="intro_image">
-      <img src="http://blog.koyotesoft.com/wp-content/uploads/2013/11/Dog-in-Disguise.jpg" alt="Bull Dog" height="300px">
-    </div>
+  <div class="question">
+    <img src="http://blog.koyotesoft.com/wp-content/uploads/2013/11/Dog-in-Disguise.jpg" class="picture" alt="Dog_in_Disguise"> 
+    
     <div class="main_text">
-      <p>How well do you know your dog breeds?</p>
-      <p>Take the quiz to test your knowledge!</p>
+      <p class="intro_questions">How well do you know your dog breeds?<br>
+        Take the quiz to test your knowledge!</p>
       <form id="start_game">
         <input class="start_button" type="button" value="Start Quiz!">
       </form>
     </div>
+
+    <div class="choices">
+      <input type="radio" name="choice" class="choice_a">
+      <span class="dog_a">Chihuahua</span><br>
+      <input type="radio" name="choice" class="choice_b">
+      <span class="dog_b">Pug</span><br>
+      <input type="radio" name="choice" class="choice_c">
+      <span class="dog_c">Bulldog</span><br>
+      <input type="radio" name="choice" class="choice_d">
+      <span class="dog_d">Boston Terrier</span><br>
+    </div>
+
+    <input type="submit" value="Submit Answer" class="submit_answer">
   </div>
 
-  <div class="all_questions">
-    <div class="question_1">
-      <p>Can you guess what kind of dog I am?</p>
-      <div class="answers">
-        <img src="http://media-cache-ec0.pinimg.com/736x/ba/1a/27/ba1a27017ce4fedbc89acf07b1c4f8a8.jpg" alt="Pug" height="300px"><br>
-        <input type="radio" name="choice" class="choice" value="0">Chihuahua<br>
-        <input type="radio" name="choice" class="choice" value="1">Pug<br>
-        <input type="radio" name="choice" class="choice" value="2">Bulldog<br>
-        <input type="radio" name="choice" class="choice" value="3">Boston Terrier<br>
-
-        <input type="submit" value="Submit Answer" class="submit_answer1">
-
-      </div>
-    </div>
-
-    <div class="question_2">
-      <p>Can you guess what kind of dog I am?</p>
-      <div class="answers">
-        <img src="https://www.kimballstock.com/pix/DOG/05/DOG-05-RK0011-06P.JPG" alt="Bull Dog" height="300px"><br>
-        <input type="radio" name="choice" class="choice" value="0">Boxer<br>
-        <input type="radio" name="choice" class="choice" value="1">Bull Dog<br>
-        <input type="radio" name="choice" class="choice" value="2">Pitbull<br>
-        <input type="radio" name="choice" class="choice" value="3">Pug<br>
-
-        <input type="submit" value="Submit Answer" class="submit_answer2">
-
-      </div>
-    </div>
-
-    <div class="question_3">
-      <p>Can you guess what kind of dog I am?</p>
-      <div class="answers">
-        <img src="http://www.gracielushihtzu.com/wp-content/uploads/2012/08/Pearls-Chi.jpeg" alt="Chihuahua" height="300px"><br>
-        <input type="radio" name="choice" class="choice" value="0">Yorkie<br>
-        <input type="radio" name="choice" class="choice" value="1">Chihuahua<br>
-        <input type="radio" name="choice" class="choice" value="2">Corgi<br>
-        <input type="radio" name="choice" class="choice" value="3">Dachshund<br>
-
-        <input type="submit" value="Submit Answer" class="submit_answer3">
-
-      </div>
-    </div>
-
-    <div class="question_4">
-      <p>Can you guess what kind of dog I am?</p>
-      <div class="answers">
-        <img src="http://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0168e7d1b78b970c-pi" alt="Golden Retriever" height="300px"><br>
-        <input type="radio" name="choice" class="choice" value="0">Chow Chow<br>
-        <input type="radio" name="choice" class="choice" value="1">Great Dane<br>
-        <input type="radio" name="choice" class="choice" value="2">Golden Retriever<br>
-        <input type="radio" name="choice" class="choice" value="3">Collie<br>
-
-        <input type="submit" value="Submit Answer" class="submit_answer4">
-
-      </div>
-    </div>
-
-     <div class="question_5">
-      <p>Can you guess what kind of dog I am?</p>
-      <div class="answers">
-        <img src="http://cache2.asset-cache.net/gc/128396437-dog-with-wig-and-sunglasses-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=q2ZFFjX1HoeYl9PCcULlg%2F07F9Js0NWlcobn5hltgO8%3D" alt="Dachshund" height="300px" width="366px"><br>
-        <input type="radio" name="choice" class="choice" value="0">Dachshund<br>
-        <input type="radio" name="choice" class="choice" value="1">Bloodhound<br>
-        <input type="radio" name="choice" class="choice" value="2">Foxhound<br>
-        <input type="radio" name="choice" class="choice" value="3">Basset Hound<br>
-
-        <input type="submit" value="Submit Answer" class="submit_answer5">
-      </div>
-    </div>
-
-    <div class="end_page">
-      <p>Thanks for playing!</p>
-      <p>You got <span>x</span> out of 5 questions correct!</p>
-      <img src="http://cdn2.blisstree.com/wp-content/uploads/2009/07/stockxpertcom-id742951-size0.jpg" alt="Celebrate" height="400px">
-
-    </div>
+  <div class="feedback">
+    <input type="submit" value="Next Question" class="next">
   </div>
-
-
+  
+  <div class="play_again">
+    <input type="submit" value="Play Again" class="again">
+  </div>
+  
 </body>
 </html>
-

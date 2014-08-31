@@ -44,7 +44,6 @@ table {
 /*CSS RESET Above*/
 
 html {
-  /*background-color: #DDD6DE;*/
   color: #FFFFFF;
   background-image: url(http://hufi.ro/static/galleries/normal/grimet80P9wr.jpg);
   background-size: cover;
@@ -58,28 +57,30 @@ body {
   text-align: center;
 }
 
-h6, .all_questions p {
-  font-size: 40px;
+.header {
   color: #FFFFFF;
-  font-weight: 800;
   background-color: rgba(0, 2, 0, 0.1);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 24px;
 }
 
-.intro_image, img {
+.title {
+  font-size: 35px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.picture {
   margin-top: 10px;
   border-radius: 20px;
-}
-
-img {
   border: 8px double #FFFA13;
+  height: 300px;
 }
 
-.start_button, .submit_answer1, .submit_answer2,
-.submit_answer3, .submit_answer4, .submit_answer5  {
+.submit_answer, .start_button, .next, .again {
   height: 30px;
   font-size: 14px;
   font-weight: bold;
@@ -92,24 +93,33 @@ img {
   text-align: center;
 }
 
-.main_text p {
-  line-height: 20px;
-  padding-top: 20px;
+input[type=radio] {
+  height: 15px;
+  width: 15px;
 }
 
-.main_text, .answers {
-   background-color: rgba(10, 10, 10, .45);
-   width: 400px;
-   margin: auto;
-}
-
-.answers {
-  text-align: center;
+.choices span, .intro_questions {
   line-height: 30px;
 }
 
-.question_1, .question_2, .question_3,
-.question_4, .question_5, .end_page  {
+.question, .feedback, .play_again {
+  background-color: rgba(10, 10, 10, .45);
+  width: 500px;
+  margin: auto;
+}
+
+.choices, .submit_answer, .next, .feedback, .again {
   display: none;
 }
 
+.intro {
+  font-size: 25px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+.feedback {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
