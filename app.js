@@ -40,7 +40,7 @@ $(document).ready(function() {
     },
     {
       number: 5,
-      photo: "http://cache2.asset-cache.net/gc/128396437-dog-with-wig-and-sunglasses-gettyimages.jpg?v=1&c=IWSAsset&k=2&d=q2ZFFjX1HoeYl9PCcULlg%2F07F9Js0NWlcobn5hltgO8%3D",
+      photo: "http://tiwibzone.tiwib.netdna-cdn.com/images/dog-hair-wig.jpg",
       choices: { a: "Dachshund",
                  b: "Bloodhound",
                  c: "Foxhound",
