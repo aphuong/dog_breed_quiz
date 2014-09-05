@@ -4,7 +4,7 @@ $(document).ready(function() {
   var questions = [
     {
       number: 1,
-      photo: "http://media-cache-ec0.pinimg.com/736x/ba/1a/27/ba1a27017ce4fedbc89acf07b1c4f8a8.jpg",
+      photo: "pictures/dog1.jpg",
       choices: { a: "Chihuahua",
                  b: "Pug",
                  c: "Bulldog",
@@ -13,7 +13,7 @@ $(document).ready(function() {
     },
     {
       number: 2,
-      photo: "https://www.kimballstock.com/pix/DOG/05/DOG-05-RK0011-06P.JPG",
+      photo: "pictures/dog2.JPG",
       choices: { a: "Bulldog",
                  b: "Boxer",
                  c: "Pitbull",
@@ -22,7 +22,7 @@ $(document).ready(function() {
     },
     {
       number: 3,
-      photo: "http://www.gracielushihtzu.com/wp-content/uploads/2012/08/Pearls-Chi.jpeg",
+      photo: "pictures/dog3.jpeg",
       choices: { a: "Yorkie",
                  b: "Chihuahua",
                  c: "Corgi",
@@ -31,7 +31,7 @@ $(document).ready(function() {
     },
     {
       number: 4,
-      photo: "http://latimesblogs.latimes.com/.a/6a00d8341c630a53ef0168e7d1b78b970c-pi",
+      photo: "pictures/dog4.jpg",
       choices: { a: "Chow Chow",
                  b: "Great Dane",
                  c: "Golden Retriever",
@@ -40,7 +40,7 @@ $(document).ready(function() {
     },
     {
       number: 5,
-      photo: "http://tiwibzone.tiwib.netdna-cdn.com/images/dog-hair-wig.jpg",
+      photo: "pictures/dog5.jpg",
       choices: { a: "Dachshund",
                  b: "Bloodhound",
                  c: "Foxhound",
@@ -114,7 +114,7 @@ $(document).ready(function() {
   var nextQuestion = function () {
     questionNumber = questionNumber + 1
     if (questionNumber > questions.length - 1) {
-      $(".picture").attr("src", "http://cdn2.blisstree.com/wp-content/uploads/2009/07/stockxpertcom-id742951-size0.jpg");
+      $(".picture").attr("src", "pictures/endpage.jpg");
       $(".submit_answer").hide();
       $(".choices").hide();
       $(".intro").text("Thanks for playing.");
