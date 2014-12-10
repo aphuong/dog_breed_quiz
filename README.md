@@ -1,5 +1,6 @@
-dog_breed_quiz
+Dog Breed Quiz
 ==============
 
-Quiz App
+#####Description
+Take the quiz to find out how well you know your dog breeds. Project built using JavaScript
 http://aphuong.github.io/dog_breed_quiz/
